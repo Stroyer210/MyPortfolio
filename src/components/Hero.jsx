@@ -2,7 +2,7 @@ import React from 'react'
 import heroImage from '../assets/MyFinishedPhoto.png'
 import { TypeAnimation } from 'react-type-animation'
 import Skills from './Skills'
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const PDF_FILE_URL = 'Resume.pdf'
 const Hero = () => {
