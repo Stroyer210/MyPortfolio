@@ -1,6 +1,6 @@
 import {React} from 'react'
 
-const PDF_FILE_URL = 'http://localhost:3000/Resume.pdf'
+const PDF_FILE_URL = 'Resume.pdf'
 const Resume = () => {
 const downloadFileAtURL = (url) => {
     const fileName = 'Resume.pdf'
