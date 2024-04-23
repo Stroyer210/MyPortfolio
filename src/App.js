@@ -15,9 +15,6 @@ function App() {
   }, [])
   return (
     <div>
-      <head>
-        <title>Sergio</title>
-      </head>
       <Navbar/>
       <Outlet />
       <Footer />
