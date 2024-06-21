@@ -17,33 +17,7 @@ const Work = () => {
 
         <div className='grid sm:grid-cols-2  gap-4'>
 
-            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
-                <img src={project1} alt="project1"/>
-                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Calculator</span>
-                    <div className='pt-8 text-center flex flex-between'>
-                        <a href="https://stroyer210.github.io/Calculator/" target="_blank" rel="noreferrer">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
-                        </a>
-                        <a href="https://github.com/Stroyer210/Calculator" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow'/></a>
-                    </div>
-                </div>
-            </div>
-
-            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
-                <img src={project2} alt="project2"/>
-                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Rock, paper, scissors</span>
-                    <div className='pt-8 text-center flex flex-between'>
-                        <a href="https://stroyer210.github.io/Rock-paper-scissors/" target="_blank" rel="noreferrer">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
-                        </a>
-                        <a href="https://github.com/Stroyer210/Rock-paper-scissors" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow'/></a>
-                    </div>
-                </div>
-            </div>
-
-            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+        <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
                 <img src={project3} alt="project3"/>
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                     <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>RecipeHub</span>
@@ -52,6 +26,33 @@ const Work = () => {
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
                         </a>
                         <a href="https://github.com/Stroyer210/RecipeHub" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
+                    </div>
+                </div>
+            </div>
+
+            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+                <img src={project6} alt="project6"/>
+                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+                    <span className=' text-2xl md:text-3xl font-extrabold text-white tracking-wider'>JourneyJot</span>
+                    <div className='pt-8 text-center flex flex-between'>
+                        <a href="https://journey-jot-decc05f3600a.herokuapp.com/" target="_blank" rel="noreferrer">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
+                        </a>
+                        <a href="https://github.com/Stroyer210/JourneyJot" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow'/></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+                <img src={project5} alt="project5"/>
+                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Weather App</span>
+                    <div className='pt-8 text-center flex flex-between'>
+                        <a href="https://stroyer210.github.io/Weather-App/" target="_blank" rel="noreferrer">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
+                        </a>
+                        <a href="https://github.com/Stroyer210/Weather-App" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow'/></a>
                     </div>
                 </div>
             </div>
@@ -70,30 +71,32 @@ const Work = () => {
             </div>
 
             <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
-                <img src={project5} alt="project5"/>
+                <img src={project1} alt="project1"/>
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Weather App</span>
+                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>DietDetective</span>
                     <div className='pt-8 text-center flex flex-between'>
-                        <a href="https://stroyer210.github.io/Weather-App/" target="_blank" rel="noreferrer">
+                        <a href="https://diet-detective.onrender.com/" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
                         </a>
-                        <a href="https://github.com/Stroyer210/Weather-App" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow'/></a>
+                        <a href="https://github.com/schneidsmc/diet-detective" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow'/></a>
                     </div>
                 </div>
             </div>
 
             <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
-                <img src={project6} alt="project6"/>
+                <img src={project2} alt="project2"/>
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                    <span className=' text-2xl md:text-3xl font-extrabold text-white tracking-wider'>JourneyJot</span>
+                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Rock, paper, scissors</span>
                     <div className='pt-8 text-center flex flex-between'>
-                        <a href="https://journey-jot-decc05f3600a.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <a href="https://stroyer210.github.io/Rock-paper-scissors/" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
                         </a>
-                        <a href="https://github.com/Stroyer210/JourneyJot" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow'/></a>
+                        <a href="https://github.com/Stroyer210/Rock-paper-scissors" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow'/></a>
                     </div>
                 </div>
             </div>
+
+
         </div>
 
     </div>

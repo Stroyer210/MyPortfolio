@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { Link, useLocation } from 'react-router-dom';
 
+
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const currentPage = useLocation().pathname;
